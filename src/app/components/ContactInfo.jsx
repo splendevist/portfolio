@@ -7,7 +7,7 @@ export default function ContactInfo() {
       <p className="my-2">
         Excited to learn more about my work or have a question? Reach out via
         email or connect with me on Indeed! You can also fill out this form, and
-        I &apos;ll get back to you as soon as possible. Looking forward to
+        I&apos;ll get back to you as soon as possible. Looking forward to
         hearing from you! ･˚:✧｡
       </p>
       <div className="flex items-center my-4">
