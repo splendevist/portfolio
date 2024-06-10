@@ -72,7 +72,7 @@ export default function ContactForm() {
         <button type="submit" className="w-full border border-black py-2 my-2">
           Submit
         </button>
-        <span className="text-red-500">{result}!</span>
+        <span className="text-red-500">{result}</span>
       </fieldset>{" "}
     </form>
   );
