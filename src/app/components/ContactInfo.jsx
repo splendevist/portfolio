@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function ContactInfo() {
   return (
-    <div className="w-1/4">
+    <div className="mr-16 w-1/4">
       <h3 className="my-2 text-lg font-medium">Contact Info</h3>
       <p className="my-2">
         Excited to learn more about my work or have a question? Reach out via
