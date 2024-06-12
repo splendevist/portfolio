@@ -27,7 +27,7 @@ export default function ContactForm() {
     }
   };
   return (
-    <form className="ml-16 w-96" onSubmit={onSubmit}>
+    <form className="mb-8 am:mb-0 sm:w-96 sm:ml-16" onSubmit={onSubmit}>
       <input
         type="hidden"
         name="access_key"

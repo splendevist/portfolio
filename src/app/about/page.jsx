@@ -5,9 +5,9 @@ export default function About() {
   return (
     <div>
       <h1 className="text-center text-2xl font-medium mb-12">About</h1>
-      <div className="flex justify-around items-center">
+      <div className="flex flex-col sm:flex-row justify-around items-center">
         <Star />
-        <div className="w-1/3 h-1/2 flex flex-col items-center border border-black p-12">
+        <div className="w-5/6 h-1/2 mb-8 flex flex-col items-center border border-black p-12 sm:mb-0 sm:w-1/3">
           <p className="mb-4">
             Hi! I&apos;m Lucy, a frontend web developer based in Derby, UK. I
             recently completed an intensive bootcamp course with Tech Educators,
