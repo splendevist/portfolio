@@ -27,7 +27,7 @@ export default function ContactForm() {
     }
   };
   return (
-    <form className="ml-16" onSubmit={onSubmit}>
+    <form className="ml-16 w-96" onSubmit={onSubmit}>
       <input
         type="hidden"
         name="access_key"
@@ -42,7 +42,7 @@ export default function ContactForm() {
         </label>
         <input
           type="text"
-          className="border border-black p-2 my-2"
+          className="w-full border border-black p-2 my-2"
           name="name"
           id="name"
           placeholder="Your Name"
@@ -53,7 +53,7 @@ export default function ContactForm() {
         </label>
         <input
           type="text"
-          className="border border-black p-2 my-2"
+          className="w-full border border-black p-2 my-2"
           name="email"
           id="email"
           placeholder="Your Email"
@@ -63,13 +63,16 @@ export default function ContactForm() {
           Message *
         </label>
         <textarea
-          className="w-full border border-black resize-none p-2 my-2"
+          className="w-full border border-black resize-none p-2 my-2 mb-4"
           name="message"
           id="message"
           placeholder="Your Message"
           required
         />
-        <button type="submit" className="w-full border border-black py-2 my-2">
+        <button
+          type="submit"
+          className="w-3/4 border border-black py-2 my-2 hover:text-yellow-500 hover:border-yellow-500 active:text-black active:border-black"
+        >
           Submit
         </button>
         <span className="text-red-500">{result}</span>

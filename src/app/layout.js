@@ -1,8 +1,8 @@
-import { Inter } from "next/font/google";
+import { Quicksand } from "next/font/google";
 import Header from "./components/Header";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const quicksand = Quicksand({ subsets: ["latin"], weight: ["400"] });
 
 export const metadata = {
   title: "Portfolio",
@@ -12,9 +12,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="h-screen">
-        <Header />
-        {children}
+      <body className={quicksand.className}>
+        <div className="h-screen">
+          <Header />
+          {children}
+        </div>
       </body>
     </html>
   );

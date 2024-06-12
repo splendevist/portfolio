@@ -11,9 +11,7 @@ export default function Projects() {
         <div className="self-start h-52 w-52 mb-32 flex justify-center items-center border-yellow-400 border-2 rounded-full border-l-transparent hover:animate-spin-slow">
           <Link href="/projects/make-the-friends">
             <div className="h-44 w-44 flex justify-center items-center border-yellow-400 border-2 rounded-full border-r-transparent">
-              <p className="text-yellow-500 w-1/2 text-2xl text-center">
-                Make the Friends
-              </p>
+              <p className="w-1/2 text-2xl text-center">Make the Friends</p>
             </div>
           </Link>
         </div>
@@ -22,9 +20,7 @@ export default function Projects() {
         <div className="self-end h-52 w-52 mb-32 flex justify-center items-center border-yellow-400 border-2 rounded-full border-l-transparent hover:animate-spin-slow">
           <Link href="/projects/catisserie-clicker">
             <div className="h-44 w-44 flex justify-center items-center border-yellow-400 border-2 rounded-full border-r-transparent">
-              <p className="text-yellow-500 w-1/2 text-2xl text-center">
-                Catisserie Clicker
-              </p>
+              <p className="w-1/2 text-2xl text-center">Catisserie Clicker</p>
             </div>
           </Link>
         </div>
@@ -33,9 +29,7 @@ export default function Projects() {
         <div className="self-start h-52 w-52 mb-32 flex justify-center items-center border-yellow-400 border-2 rounded-full border-l-transparent hover:animate-spin-slow">
           <Link href="/projects/space-gallery">
             <div className="h-44 w-44 flex justify-center items-center border-yellow-400 border-2 rounded-full border-r-transparent">
-              <p className="text-yellow-500 w-1/2 text-2xl text-center">
-                Space Gallery
-              </p>
+              <p className="w-1/2 text-2xl text-center">Space Gallery</p>
             </div>
           </Link>
         </div>
@@ -44,9 +38,7 @@ export default function Projects() {
         <div className="self-end h-52 w-52 mb-32 flex justify-center items-center border-yellow-400 border-2 rounded-full border-l-transparent hover:animate-spin-slow">
           <Link href="/projects/dreamscape">
             <div className="h-44 w-44 flex justify-center items-center border-yellow-400 border-2 rounded-full border-r-transparent">
-              <p className="text-yellow-500 w-1/2 text-2xl text-center">
-                Dream Scape
-              </p>
+              <p className="w-1/2 text-2xl text-center">Dream Scape</p>
             </div>
           </Link>
         </div>
@@ -55,9 +47,7 @@ export default function Projects() {
         <div className="self-start h-52 w-52 mb-32 flex justify-center items-center border-yellow-400 border-2 rounded-full border-l-transparent hover:animate-spin-slow">
           <Link href="/projects/social-sprout">
             <div className="h-44 w-44 flex justify-center items-center border-yellow-400 border-2 rounded-full border-r-transparent">
-              <p className="text-yellow-500 w-1/2 text-2xl text-center">
-                Social Sprout
-              </p>
+              <p className="w-1/2 text-2xl text-center">Social Sprout</p>
             </div>
           </Link>
         </div>
